@@ -9,7 +9,7 @@
     background-image: url("./images/banner/banner3.png");
     /* border: 1px solid red; */
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: 100% 100%;
 }
 
@@ -48,4 +48,196 @@
     font-weight: 600;
     color: #005fac;
     border: none;
+}
+
+.failure_of_previous_year_section{
+    margin: 130px 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.failure_section_info_wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+.previous_year_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 24px;
+}
+.failure_bullet_points{
+    list-style: none;
+    padding: 0;
+}
+.failure_bullet_points>li{
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #444343;
+}
+.failure_document>span{
+    color: #444343;
+}
+.failure_title{
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 700;
+}
+.failure_document{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.plans_section{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 130px 230px;
+    justify-content: center;
+    align-items: center;
+}
+
+.plans_section_title{
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 700;
+}
+.plans_info{
+    display: flex;
+    gap: 86px;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    text-align: center;
+}
+.skill_icon_wrapper{
+    margin-bottom: 26px;
+}
+.skill_title{
+    margin-bottom: 16px;
+    font-size: 30px;
+    line-height: 35.19px;
+    font-weight: 700;
+}
+.skill_content{
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #737272;
+}
+
+.positive_mindset_section{
+    position: relative;
+    display: flex;
+    margin: 130px 230px;
+    /* background-image: url("./images/watch.png"); */
+    /* width: 100%; */
+    
+    background: linear-gradient(to left, rgba(0, 95, 172, 0.1), #005FAC), url("./images/watch.png");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.positive_mindset_title{
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 700;
+}
+.positive_mindset_info{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 460px;
+    left: 64px;
+    top: 60px;
+    color: #fff;
+}
+footer{
+    background-color: #000;
+    height: 577px;
+}
+.footer_info{
+    display: flex;
+    flex-direction: row;
+    padding: 130px 230px;
+    color: #fff;
+    gap: 330px;
+}
+.left_info_section{
+    /* display: flex; */
+    
+}
+.footer_title{
+    font-size: 45px;
+    line-height: 53px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.footer_documentation{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    width: 485px;
+    margin-bottom: 24px;
+}
+.email{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.phone{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 32px;
+}
+.social_icons{
+    display: flex;
+    gap: 18px;
+}
+.footer_right_title{
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+input{
+    display: block;
+    width: 325px;
+    height: 64px;
+    border: 1px solid #fff;
+    background-color: #000;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    /* text-align: center; */
+}
+::placeholder{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    /* text-align: center; */
+    padding-left: 21px;
+    padding-top: 21px;
+    color: #fff;
+}
+.subscribe_btn{
+    padding: 20px 36px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    background-color: #005FAC;
+    color: #fff;
+    border-radius: 8px;
 }
